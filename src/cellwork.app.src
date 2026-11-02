@@ -1,0 +1,9 @@
+{application, cellwork,
+ [{description, "A spreadsheet engine: formula parser, evaluator and incremental recalculation"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications, [kernel, stdlib]},
+  {env, []},
+  {licenses, ["MIT"]},
+  {links, [{"GitHub", "https://github.com/avohra25/cellwork"}]}
+ ]}.
