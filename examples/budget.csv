@@ -1,0 +1,8 @@
+Item,Monthly,Yearly,Share
+Rent,1850,=B2*12,"=ROUND(B2/B$7*100,1)"
+Groceries,420,=B3*12,"=ROUND(B3/B$7*100,1)"
+Transit,96,=B4*12,"=ROUND(B4/B$7*100,1)"
+Internet,60,=B5*12,"=ROUND(B5/B$7*100,1)"
+Fun,"=ROUND(B2*0.1,0)",=B6*12,"=ROUND(B6/B$7*100,1)"
+Total,=SUM(B2:B6),=SUM(C2:C6),"=ROUND(SUM(D2:D6),0)"
+Items over 500,"=COUNTIF(B2:B6,"">500"")",Average,=AVERAGE(B2:B6)
