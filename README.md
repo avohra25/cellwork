@@ -1,6 +1,5 @@
 # cellwork
 
-
 A spreadsheet engine in Erlang/OTP: a formula language with real
 spreadsheet semantics, an evaluator, incremental recalculation over a
 dependency graph with cycle detection, a live `gen_server` that pushes
